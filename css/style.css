@@ -78,7 +78,7 @@ body::before {
     top: 50%;
     width: 100%;
     height: 50%;
-    background-image: url(/images/bg-desktop.png);
+    background-image: url(../images/bg-desktop.png);
     background-size: cover;
     background-repeat: no-repeat;  
     z-index: -1;
@@ -87,7 +87,7 @@ body::before {
 /* Mobile Background Image */
 @media (max-width: 767px) {
     body::before {
-        background-image: url(/images/bg-mobile.png);
+        background-image: url(../images/bg-mobile.png);
         height: 100%;
         top: 0;
     }
